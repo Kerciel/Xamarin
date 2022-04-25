@@ -6,9 +6,16 @@
              >
     
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
-            <Label x:Name="Countlelab" HorizontalOptions="Center" FontSize="80" Text="0" TextColor="Black"/><!---On definit une nom pour pourvoir utiliser le contenu qui est dans label-->
-            <Button HorizontalOptions="FillAndExpand" Style="{StaticResource boutonLabStyle}" Margin="30,30,30,0" Text="COMPTER" Clicked="CountButtonClick" /><!---On utilise une fonction click utliser l'evebement click-->
+        <StackLayout Spacing="0">
+            <StackLayout HorizontalOptions="FillAndExpand"  VerticalOptions="Center" BackgroundColor="#518faa">
+                <Label x:Name="Countlelab" HorizontalOptions="Center" FontSize="80" Text="0" TextColor="White"/>
+                <!---On definit une nom pour pourvoir utiliser le contenu qui est dans label-->
+            </StackLayout>
+            <Image Source="lab_separator.png" Aspect="AspectFill"/>
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="30,0,30,0">
+                <Button HorizontalOptions="FillAndExpand" Style="{StaticResource boutonLabStyle}" BackgroundColor="#518faa" Margin="30,30,30,0" Text="COMPTER" Clicked="CountButtonClick" />
+                <!---On utilise une fonction click utliser l'evebement click-->
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

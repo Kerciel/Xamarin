@@ -16,10 +16,20 @@ namespace Lelab.Views
         {
             InitializeComponent();
         }
-
+        //Naviger vers la page CountPage
          void NavCountPage(object sender, EventArgs e)
         {
             this.Navigation.PushAsync(new CountPage());
+        }
+        //Naviguer vers la page de Tabs
+        void NavTabs(object sender, EventArgs e)
+        {
+            this.Navigation.PushAsync(new Tabs());
+        }
+
+        void NavListes(object sender, EventArgs e)
+        {
+            this.Navigation.PushAsync(new Listes());
         }
     }
 }

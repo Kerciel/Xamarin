@@ -133,4 +133,19 @@
       <Name>Lelab</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="lab_icon_avion%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="lab_icon_compteur%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="lab_icon_voiture%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="lab_avion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="lab_voiture.png" />
+  </ItemGroup>
 </Project>
